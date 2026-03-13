@@ -1,0 +1,228 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht,initial-scale=1.0">
+    <title>Green Valley Waterpark Purwakarta</title>
+    <style>
+ /*1.tag section digunakan untuk mendefinisikan sebuah bagian dalam dokumen atau membuat baris. 
+tag div digunakan untuk mempermudah penerapan gaya CSS
+2.Agar ketika gambar tidak muncul atau ketika tidak tersambung koneksi internet terdapat deskripsi gambar tersebut. 
+3.Tag tersebut berperan mengatur cara tampilan halaman, jadi ketika tidak menggunakan tag tersebut halaman tidak akan menjadi responsive*/
+      body {
+        font-family: 'Segoe UI', Tohama, Genewa, Verdana, Sans-Serif;
+        margin: 0;
+        line-height: 1.6;
+        color: 333;
+      }
+header {
+       background: #00CED1;
+       color: white;
+       padding: 1rem 0;
+      text-align: center;
+}
+nav ul {
+       list-style: none;
+       padding: 0;
+}
+nav ul li {
+       display: iniline;
+       margin: 0 15px;
+}
+nav ul li a {
+       color: white;
+       text-decoration: none;
+       font-weight: bold;
+}
+.container {
+       width: 85%;
+       margin: auto;
+       overflow: hidden;
+       padding: 20px 0;
+}
+section {
+       padding: 20px 0;
+       border-bottom: 1px solid #ccc;
+}
+.gallery img {
+       width: 100%;
+       max-width: 400px;
+       height: auto ;
+       border-radius: 8px;
+       margin: 10px;
+}
+table {
+       width: 100%;
+       border-collapse: collapse;
+       margin: 20px 0;
+}
+table,th,td {
+       border: 1px solid #ddd;
+       padding: 12px;
+       text-align: left;
+}
+th {
+       background-color: #f4f4f4;
+}
+footer {
+       background: #00CED1;
+       color: white;
+       text-align: center;
+       padding: 20px 0;
+       margin-top: 20px;
+}
+/* Responsivitas sederhana */
+@media (mix-width: 600pc) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+    </style>
+  </head>
+     </body>
+     
+     <header id="home">
+       <h1>Green Valley Waterpark</h1>
+       <nav>
+         <ul>
+           <li><a href="#about">Tentang</a></li>
+           <li><a href="#pricing">Harga</a></li>
+           <li><a href="#services">Layanan</a></li>
+           <li><a href="#Fasilitas">Fasilitas</a></li>
+           <li><a href="#Rencana">Perjalanan</a></li>
+           <li><a href="#Lokasi">Lokasi</a></li>
+           <li><a href="#portfolio">Media</a></li>
+         </ul>
+       </nav>
+     </header>
+     
+     <main class="container">
+       <section id="about">
+         <h2>Tentang Green Valley</h2>
+         <p><mark><strong><b>Green Valley Waterpark</mark></strong></b> destinasi wisata berupa kolam renang dan taman air yang berada di Purwakarta. Tempat rekreasi ini sangat cocok untuk yang mencari tujuan berlibur keluarga di daerah Purwakarta.<p>
+          <p>Taman air ini menawarkan beragam jenis kolam lengkap dengan aneka wahana permainan. Karenanya, tempat ini bisa menjadi alternatif berlibur yang menyenangkan untuk semua kalangan usia.<p>
+       </section>
+       
+       <section id="pricing">
+         <h2>Harga Tiket Masuk</h2>      
+         <table>
+           <thead>
+             <tr>
+               <th colspan="3"> <p style="text-align:center;">Harga Tiket</p></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>Jenis Tiket</td>
+               <td>Dewasa</td>
+               <td>Anak-Anak</td>
+             </tr>
+             <tr>
+               <td>Tiket Masuk</td>
+               <td>Rp.40.000</td>
+               <td>Rp.25.000</td>
+              </tr>
+              <tr>
+                <td>Sewa Ban pelampung</td>
+                <td>Rp.20.000</td>
+                <td>Rp.10.000</td>
+              </tr>
+              <tfoot>
+                <td colspan="2">Sewa Loker, Kora-Kora, Sepeda Anak, Sepeda Udara</td>
+                <td>Rp.10.000</td>
+              </tfoot>
+           </tbody>
+         </table>
+         <p>Harga Tiket Masuk dan Wahana Green Valley Waterpark</p>
+       </section>
+       
+       <section id="services">
+         <h2>Jam Buka Green Valley Waterpark</h2>
+         <table>
+           <tr>
+             <td>Hari</td>
+             <td>Jam Operasional</td>
+           </tr>
+           <tr>
+             <td>Senin - Kamis</td>
+             <td>09.00 - 17.00 WIB</td>
+           </tr>
+           <tr>
+             <td>Jumat</td>
+             <td>Tutup</td>
+           </tr>
+           <tr>
+             <td>Sabtu - Minggu</td>
+             <td>08.30 - 17.00 WIB</td>
+           </tr>
+         </table>
+         <p style="text-align:center;">Jam Operasional Green Valley Waterpark</p>
+       </section>
+       
+       <section id="Fasilitas">
+         <h2>Fasilitas Green Valley Waterpark</h2>
+         <ul>
+           <li>Area parkir luas</li>
+           <li>Loker untuk menyimpan barang</li>
+           <li>Gazebo</li>
+           <li>Toilet</li>
+           <li>Mushola</li>
+           <li>Kantin</li>
+           <li>Penyewaan pelampung ban</li>
+           <li>Kolam anak</li>
+           <li>Kolam dewasa</li>
+           <li>Kolam arus</li>
+           <li>Mandi busa</li>
+           <li>Water slide</li>
+           <li>Sepeda udara</li>
+           <li>Kora-kora</li>
+           <li>Kereta anak</li>
+           <li>spot selfie</li>
+         </ul>
+       </section>
+       
+       <section id="Rencana">
+         <h2>Rencana Perjalanan</h2>
+         <ol>
+           <li>Perjalanan menuju Lokasi</li>
+           <li>Tiba dl Lokasi</li>
+           <li>Pembelian tiket</li>
+           <li>Berenang</li>
+           <li>Bersih-bersih</li>
+           <li>Makan Siang di Gazebo atau Kafe</li>
+           <li>Foto-Foto</li>
+           <li>Bermain</li>
+           <li>Persiapan pulang</li>
+         </ol>
+       </section>
+       
+       <section id="Lokasi">
+       <h2>Lokasi Green Valley Waterpark</h2>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.028829976691!2d107.4720943!3d-6.5180346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690dfc0c7cc207%3A0xb186905d889fa863!2sGreen%20Valley%20Waterpark!5e0!3m2!1sid!2sid!4v1770167244547!5m2!1sid!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </section>
+       
+       <section id="portfolio">
+         <h2>Media</h2>
+         <div class="media-container">
+           <img src="Wahana.jpg" alt="Purwakarta-1">
+   
+       <h3>Video Green Valley </h3>
+<div style="height: 533.33px; width: 300.00px; position:relative;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/69905ed9eb01bae36a365bb2" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div><p style="font-size: 12px; text-align: right;">Video edited on <a href="https://www.kapwing.com/video-editor">Kapwing</a></p>
+    
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="Audio.mp3" type="audio/mpeg">
+          Browser Anda tidak mendukung tag audio.
+        </audio>
+        </div>
+       </section>
+     </main>
+     
+     <footer>
+      <p>&copy; 2026 Green Valley Waterpark Purwakarta</p>
+      <p>Hubungi Kami di: <a href="WhatsApp.com">(0264) 8307204</a>
+      <br>
+      <a href="https://www.instagram.com/greenvalleywaterpark?igsh=OGkzdjA0bGVsMHF3">@greenvalleywaterpark.</a></p>
+    </footer>
+</html>
