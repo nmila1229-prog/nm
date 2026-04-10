@@ -1,0 +1,101 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f5f7fa;
+}
+
+/* HEADER */
+.header{
+  text-align:center;
+  padding:40px 20px;
+}
+
+.header h4{
+  color:#2f5d50;
+  letter-spacing:2px;
+}
+
+.header h1{
+  font-size:32px;
+  margin:10px 0;
+  color:#222;
+}
+
+.header p{
+  color:#666;
+}
+
+/* MAP */
+.map-container{
+  position:relative;
+  max-width:700px;
+  margin:30px auto;
+}
+
+.map-container img{
+  width:100%;
+}
+
+/* HOTSPOT */
+.spot{
+  position:absolute;
+  padding:8px 12px;
+  border:none;
+  border-radius:20px;
+  background:#2f5d50;
+  color:white;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.spot:hover{
+  background:#1f4037;
+}
+
+/* POSISI HOTSPOT */
+.sumatra{ top:40%; left:20%; }
+.jawa{ top:65%; left:40%; }
+.kalimantan{ top:35%; left:50%; }
+.sulawesi{ top:45%; left:65%; }
+.papua{ top:50%; left:85%; }
+
+/* KATEGORI */
+.categories{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+  padding:40px 20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  width:250px;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card h3{
+  color:#2f5d50;
+}
+
+/* FACTS */
+.facts{
+  text-align:center;
+  padding:40px 20px;
+}
+
+.fact-box{
+  background:white;
+  margin:10px auto;
+  padding:15px;
+  max-width:300px;
+  border-radius:10px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
